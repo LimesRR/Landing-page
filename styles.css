@@ -1,0 +1,40 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header {
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-between;
+    
+}
+
+.header ol {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+
+}
+
+.header2 {
+    display: flex;
+    padding: 100px;
+
+
+}
+
+.header2 div div {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 5px;
+
+}
+
+.fullh {
+    background-color: #1F2937;
+    color: white;
+}
+
+button {
+    background-color: lightblue;
+}
