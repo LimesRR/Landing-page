@@ -2,6 +2,11 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     padding: 0 100px;
@@ -19,6 +24,9 @@
 .header2 {
     display: flex;
     padding: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 
 
 }
@@ -37,4 +45,49 @@
 
 button {
     background-color: lightblue;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middle img {
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+}
+
+.header2 img {
+    height: 200px;
+    width: 400;
+}
+
+.header2 div {
+    align-self: flex-start;
+}
+
+.image {
+    display: flex;
+    gap: 30px;
+}
+
+.gray-bg {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.gray-bg p {
+    display: flex;
+    width: 800px;
+}
+
+.yi {
+    justify-content: flex-end;
 }
