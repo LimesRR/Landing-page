@@ -33,7 +33,7 @@ body {
     padding: 100px;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 
 
 }
@@ -59,10 +59,11 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 40px;
 }
 
 .middle img {
-    border: 2px solid blue;
+    border: 3px solid #3882f6;
     height: 120px;
     width: 120px;
 }
@@ -91,14 +92,13 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
 }
 
 .gray-bg p {
     display: flex;
     width: 1000px;
     color: #1f2937;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .yi {
